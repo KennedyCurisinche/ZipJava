@@ -12,4 +12,9 @@ public class Constante {
     public static final String ZIP_NAME = "persona.zip";
     public static final String PDF_NAME = "documento.pdf";
 
+    public static final String TYPE_PDF = ".pdf";
+    public static final String TYPE_CSV = ".csv";
+    public static final String TYPE_ZIP = ".zip";
+    public static final String TYPE_TXT = ".txt";
+
 }

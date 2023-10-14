@@ -1,32 +1,16 @@
 package rogger.guia.app.zip.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Persona {
 
     private String nombre;
     private Integer edad;
-
-    public Persona() {
-    }
-
-    public Persona(String nombre, Integer edad) {
-        this.nombre = nombre;
-        this.edad = edad;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public Integer getEdad() {
-        return edad;
-    }
-
-    public void setEdad(Integer edad) {
-        this.edad = edad;
-    }
+    private Double sueldo;
 
 }
